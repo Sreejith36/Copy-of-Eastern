@@ -1,6 +1,7 @@
 * {
     list-style: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--color2);
 }
 body {
     margin: 0;
