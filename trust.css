@@ -1,0 +1,25 @@
+.trust {
+    width: 100%;
+    padding: 1px 100px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.years {
+    width: 20%;
+    text-align: center;
+}
+
+.years img {
+    width: 30%;
+}
+
+.years .number {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.years .num1 {
+    font-size: 22px;
+}

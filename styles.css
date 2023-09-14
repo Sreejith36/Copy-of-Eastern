@@ -3,6 +3,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--color2);
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,6 @@ body {
     width: 98vw;
     position: absolute;
     z-index: 1;
-    /* background-color: blueviolet; */
     padding: 1px 100px;
 }
 
@@ -61,3 +61,82 @@ body {
     transition: 0.3s ease;
 }
 
+
+
+.two,
+.bTwo,
+.cTwo,
+.dTwo,
+.eTwo {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    left: 380px;
+    background-color: var(--color3);
+    box-shadow: 2px 2px 6px grey;
+    width: 15%;
+}
+
+.two a,
+.bTwo a,
+.cTwo a,
+.dTwo a,
+.eTwo a {
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    border-bottom: 0.5px solid var(--color4);
+}
+
+.two a:hover,
+.bTwo a:hover,
+.cTwo a:hover,
+.dTwo a:hover,
+.eTwo a:hover {
+    background-color: var(--color4);
+    transition: 0.3s ease;
+}
+
+.bTwo {
+    left: 490px;
+}
+
+.cTwo {
+    left: 600px;
+}
+
+.dTwo {
+    left: 720px;
+}
+
+.eTwo {
+    left: 1150px;
+}
+
+.thre {
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+
+.one:hover+.two,
+.bOne:hover+.bTwo,
+.cOne:hover+.cTwo,
+.dOne:hover+.dTwo,
+.eOne:hover+.eTwo,
+.two:hover,
+.bTwo:hover,
+.cTwo:hover,
+.dTwo:hover,
+.eTwo:hover {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transition: 0.3s ease;
+
+}
+
+.bline {
+    text-decoration: underline;
+    color: white;
+}
