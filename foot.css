@@ -1,0 +1,47 @@
+footer {
+    width: 100%;
+    padding: 1px 100px;
+    padding-top: 80px;
+    background-color: var(--color8);
+}
+
+.box3 {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer h3,
+footer p,
+footer p a,
+footer p a i {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer p a i {
+    margin-right: 10px;
+}
+
+footer p,
+footer p a {
+    font-size: 0.9em;
+}
+
+footer p a:hover {
+    color: var(--color1);
+}
+
+footer .about {
+    width: 100%;
+}
+
+footer .box4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

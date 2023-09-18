@@ -1,0 +1,81 @@
+.world {
+    width: 100%;
+    padding: 1px 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.weAre {
+    width: 48%;
+    height: 250px;
+    background-color: var(--color5);
+    border-radius: 12px;
+    display: flex;
+    padding: 1px 30px;
+    padding-top: 50px;
+}
+
+.weAre .left,
+.proces .left {
+    width: 35%;
+}
+
+.weAre .left img {
+    width: 75%;
+}
+
+.weAre .right{
+    width: 60%;
+}
+
+.weAre .right h2,
+.proces .right h2 {
+    font-size: 29px;
+    font-weight: 520;
+}
+
+.proces {
+    width: 48%;
+    height: 250px;
+    background-color: var(--color6);
+    border-radius: 12px;
+    display: flex;
+    padding: 1px 30px;
+    padding-top: 50px;
+}
+
+.proces .left img {
+    width: 70%;
+}
+
+.proces .left {
+    width: 29%;
+}
+
+.proces .right{
+    width: 70%;
+}
+
+.proces button {
+    border: none;
+    background-color: var(--color1);
+    padding: 10px 20px;
+    font-size: 0.85em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.proces button:hover {
+    background-color: var(--color7);
+}
+
+.np{
+    width: 100%;
+    padding: 1px 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+

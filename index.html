@@ -9,15 +9,23 @@
     <link rel="stylesheet" href="colors.css">
     <link rel="stylesheet" href="trust.css">
     <link rel="stylesheet" href="story.css">
+    <link rel="stylesheet" href="world.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="roll.css">
+    <link rel="stylesheet" href="foot.css">
+    <link rel="stylesheet" href="hideNav.css">
     <link rel="icon" href="https://eastern.in/wp-content/uploads/2023/04/logo.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="containerBox">
-        <div class="topBar">
+        <div class="topBar"> <!-- *** styles.css *** -->
             <div class="login">
                 <ul>
                     <li>LOGIN</li>
@@ -72,6 +80,7 @@
 
                         <li>VIDEOS</li>
                         <li>SCHEME OF AMALGAMATIONS</li>
+                        
                         <li class="eOne"><span class="bline">C</span>ONTACT US</li>
                         <div class="eTwo">
                             <a href="#"><span class="thre">CONTACT</span> </a>
@@ -82,43 +91,60 @@
             </div>
         </div>
 
+        <!-- **** TOP BANNER CAROUSEL START  **** -->
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://eastern.in/wp-content/uploads/2023/02/beef-banner.jpg"
-                        alt="First slide">
+                    <img src="https://eastern.in/wp-content/uploads/2023/02/beef-banner.jpg" class="d-block w-100"
+                        alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://eastern.in/wp-content/uploads/2023/03/kabab-1.jpg"
-                        alt="Second slide">
+                    <img src="https://eastern.in/wp-content/uploads/2023/03/kabab-1.jpg" class="d-block w-100"
+                        alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://eastern.in/wp-content/uploads/2023/01/kayam-banner.jpg"
-                        alt="Third slide">
+                    <img src="https://eastern.in/wp-content/uploads/2023/03/chickn-masala-website-banners-01.jpg"
+                        class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100"
-                        src="https://eastern.in/wp-content/uploads/2023/03/chickn-masala-website-banners-01.jpg"
-                        alt="Fourth slide">
+                    <img src="https://eastern.in/wp-content/uploads/2023/01/kayam-banner.jpg" class="d-block w-100"
+                        alt="...">
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="story">
+
+        <!-- **** TOP BANNER CAROUSEL ENDS  **** -->
+
+        <!-- **** FIXED NAVIGATION ICON AT BOTTOM RIGHT CORNER  **** -->
+        <a href="#">
+            <div id="scrollToTopBtn"  class="scrollToTopBtn">  <!-- *** hideNav.css *** -->
+                <p><i class="fa-solid fa-angle-up"></i> <br> TOP</p>
+            </div>
+        </a>
+        <!-- **** FIXED NAVIGATION ICON AT BOTTOM RIGHT CORNER  **** -->
+
+        <div class="story"> <!-- *** story.css *** -->
             <div class="our">
                 <h1>OUR STORY</h1>
                 <P>
@@ -169,20 +195,244 @@
             </div>
         </div>
 
-    </div>
+        <!-- ************************************************************ -->
+
+        <div class="world"> <!-- *** world.css *** -->
+            <div class="weAre">
+                <div class="left">
+                    <img src="https://eastern.in/wp-content/uploads/2023/01/world-map.png" alt="">
+                </div>
+                <div class="right">
+                    <h2>WE'RE WORLDWIDE</h2>
+                    <p>Spreading the aroma of our spices across the world, Eastern has a presence over 22+ countries and
+                        counting!</p>
+                </div>
+            </div>
+            <div class="proces">
+                <div class="left">
+                    <img src="https://eastern.in/wp-content/uploads/2023/01/chef-1.png" alt="">
+                </div>
+                <div class="right">
+                    <h2>QUALITY PROCESS</h2>
+                    <p>
+                        We make sure that every batch of production undergo International quality processes without
+                        fail.
+                    </p>
+                    <button>Read FAQ</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="np"> <!-- *** world.css *** -->
+            <h2>NEW PRODUCTS</h2>
+        </div>
+
+
+        <!-- ***************************** -->
+
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- *** FIRST SET 4 CARDS  START *** -->
+                <div class="carousel-item active main1"> <!-- *** product.css *** -->
+
+
+                    <div class="row">
+
+                        <div class="col-lg-3 ">
+                            <div class="card card1">
+                                <img src="https://eastern.in/custom-slider/img/1.png" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="https://eastern.in/custom-slider/img/2.png" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="https://eastern.in/custom-slider/img/3.png" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="https://eastern.in/custom-slider/img/4.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- *** FIRST SET 4 CARDS  ENDS *** -->
+
+                <!-- *** SECOND SET 4 CARDS  START *** -->
+                <div class="carousel-item main1"> <!-- *** product.css *** -->
+
+
+                    <div class="row">
+
+                        <div class="col-lg-3 ">
+                            <div class="card card1">
+                                <img src="https://eastern.in/custom-slider/img/1.png" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="https://eastern.in/custom-slider/img/5.png" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="https://eastern.in/custom-slider/img/6.png" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="https://eastern.in/custom-slider/img/4.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- *** SECOND SET 4 CARDS  ENDS *** -->
 
 
 
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        <!-- **************************************** -->
+
+        <div class="roll"> <!-- *** roll.css *** -->
+            <div class="plate">
+                <img src="https://eastern.in/wp-content/uploads/2023/01/cook-img.png" alt="">
+            </div>
+            <div class="life">
+                <h2>
+                    Life is the combination of Magic and Food
+                </h2>
+                <p>
+                    We try to Create wonders with spices that makes new Masterpiece Recipes bring magic in all its
+                    Flavours. You have to get the right ingredient and have to get the right mixture for highest quality
+                    recipes.
+                </p>
+                <button>See Our Cook Book</button>
+            </div>
+
+        </div>
+
+        <!-- ********************************************************************* -->
+
+        <div class="join"> <!-- *** roll.css *** -->
+            <h2>
+                JOIN OUR NEWSLETTER
+            </h2>
+            <p>
+                Let’s Make every day delicious ! Sign up here for a daily taste of our favorite new recipes fresh to you
+                in your inbox.
+            </p>
+            <div class="mailid">
+                <input type="text" placeholder="your.address@gmail.com">
+                <button>JOIN US</button>
+            </div>
+        </div>
+
+        <!-- ********************************************************************* -->
+
+        <footer> <!-- *** foot.css *** -->
+
+                <div class="box3">
+
+                    <div class=" about">
+                        <h3>About Eastern</h3>
+                        <p><a href="#">History</a></p>
+                        <p><a href="#">Blog</a></p>
+                        <p><a href="#">Events</a></p>
+                        <p><a href="#">Contests</a></p>
+                        <p><a href="#">Videos</a></p>
+                        <p><a href="#">Careers</a></p>
+                        <p><a href="#">Corporate Social Responsibility</a></p>
+                        <p><a href="#">Privacy Policy</a></p>
+                    </div>
+
+                    <div class=" about">
+                        <h3>Products</h3>
+                        <p><a href="#">Spices & Masalas</a></p>
+                        <p><a href="#">Accompaniments</a></p>
+                        <p><a href="#">Breakfast</a></p>
+                        <p><a href="#">Pickles & Paste</a></p>
+                        <p><a href="#">Sweets & Deserts</a></p>
+                        <p><a href="#">Beverages</a></p>
+                        <p><a href="#">Confectionery</a></p>
+                        <p><a href="#">Vermicelli & Macaroni</a></p>
+                        <p><a href="#">GCC</a></p>
+                        <p><a href="#">Other Countries</a></p>
+                    </div>
+
+                    <div class=" about">
+                        <h3>Cook Book</h3>
+                        <p><a href="#">Vegetarian</a></p>
+                        <p><a href="#">Non-Vegetarian</a></p>
+                        <p><a href="#">Sweets</a></p>
+                    </div>
+
+                    <div class="about">
+                        <h3>Social Media</h3>
+                        <p><a href="#">
+                                <i class="fa-brands fa-twitter"></i>Twitter
+                            </a></p>
+                        <p><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></p>
+                        <p><a href="#"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></p>
+                        <div class="mvd">
+
+                            <p><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box4">
+                    <p>© 2023 Eastern Digital</p>
+                    <p>Developed by Sreejith</p>
+                </div>
+        </footer>
+
+
+        <script src="navIcon.js"></script>
+        <!-- **** BOOTSTRAP 5 CDN **** -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <!-- **** BOOTSTRAP 5 CDN **** -->
+
 </body>
 
 </html>

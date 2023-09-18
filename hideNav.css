@@ -1,0 +1,35 @@
+.scrollToTopBtn {
+  
+    /* keep it at the top of everything else */
+    z-index: 100;
+  
+    /* hide with opacity */
+    opacity: 0;
+  
+    /* also add a translate effect */
+    transform: translateX(100px);
+  
+    /* and a transition */
+    transition: all .5s ease;
+
+    width: 50px;
+    height: 50px;
+    background-color: var(--color1);
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  
+.scrollToTopBtn p,
+.scrollToTopBtn p i {
+    color: whitesmoke;
+    font-size: 0.8em;
+}
+  
+  .showBtn {
+    opacity: 1;
+    transform: translateX(0)
+  }

@@ -1,3 +1,4 @@
+
 .story {
     width: 100%;
     padding: 1px 100px;
@@ -31,7 +32,7 @@
 }
 
 .our button:hover {
-    background-color: #5c8872;
+    background-color: var(--color7);
 }
 
 .powder {

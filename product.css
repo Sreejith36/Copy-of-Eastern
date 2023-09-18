@@ -1,0 +1,12 @@
+.main1 {
+    width: 100%;
+    padding: 1px 100px;
+}
+
+.card1 {
+    border-radius: 20px;
+}
+
+.card:hover {
+    border-color: red;
+}
