@@ -6,6 +6,7 @@
     justify-content: space-between;
 
 }
+
 .weAre {
     width: 48%;
     height: 250px;
@@ -23,9 +24,10 @@
 
 .weAre .left img {
     width: 75%;
+
 }
 
-.weAre .right{
+.weAre .right {
     width: 60%;
 }
 
@@ -53,7 +55,7 @@
     width: 29%;
 }
 
-.proces .right{
+.proces .right {
     width: 70%;
 }
 
@@ -71,11 +73,75 @@
     background-color: var(--color7);
 }
 
-.np{
+.np {
     width: 100%;
     padding: 1px 100px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 600px) {
 
+    .world {
+        width: 100%;
+        padding: 1px 20px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .weAre {
+        width: 100%;
+        height: 300px;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;        
+    }
+
+    .weAre .left,
+    .proces .left {
+        width: 95%;
+    }
+
+    .weAre .left img {
+        width: 35%;
+        margin-bottom: 20px;
+    }
+
+    .weAre .right {
+        width: 70%;
+        margin: 1px auto;
+    }
+
+    .proces {
+        width: 100%;
+        height: 350px;
+        border-radius: 12px;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;    
+    }
+
+    .proces .left {
+        width: 32%;
+        margin: 1px auto;
+        margin-bottom: 15px;
+    }
+
+    .proces .left img {
+        width: 55%;
+    }
+    
+    .proces .right {
+        width: 67%;
+        margin: 1px auto;
+    }
+
+    .np {
+        width: 100%;
+        padding: 1px 100px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+}

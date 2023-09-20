@@ -10,3 +10,36 @@
 .card:hover {
     border-color: red;
 }
+
+
+
+.productOne {
+    display: none;
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .productFour {
+        display: none;
+    }
+
+    .productOne {
+        display: block;
+    }
+
+    .productOne .card {
+        width: 80%;
+        margin: 1px auto;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        background-color: #a9b5c2; /* background color of arrow */
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: var(--color1); /* arrow color of arrow icon */
+    }
+
+   
+}

@@ -87,3 +87,64 @@
 .mailid button:hover {
     background-color: var(--color7);
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .roll {
+        width: 100%;
+        padding: 1px 20px;
+        margin-top: 80px;
+        display: block;
+    }
+
+    .roll .plate {
+        width: 90%;
+        margin: 1px auto;
+    }
+
+    .roll .life {
+        width: 95%;
+        text-align: center;
+    }
+    
+    .roll .life h2 {
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .roll .life p {
+        text-align: justify;
+    }
+    
+    .join {
+        margin-top: 60px;
+        display: block;
+        height: 350px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+   
+    .join .mailid {
+        width: 100%;
+        display: block;
+    }
+
+    .join .mailid input {
+        width: 90%;
+        padding: 5px 10px;
+        
+    }
+
+    .mailid button {
+        padding: 8px 1px;
+        margin-left: 1px;
+        margin-top: 10px;
+        width: 90%;
+    }
+    
+   
+}

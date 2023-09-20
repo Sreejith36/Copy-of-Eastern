@@ -43,3 +43,21 @@
 .powder img {
     width: 98%;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .our {
+        width: 100%;
+    }
+    .powder {
+        display: none;
+    }
+
+    .story{
+        padding: 1px 20px;
+    }
+
+    .our p {
+        text-align: justify;
+    }
+  }

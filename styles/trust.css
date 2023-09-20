@@ -23,3 +23,16 @@
 .years .num1 {
     font-size: 22px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .trust {
+        display: block;
+    }
+
+    .years {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+}
