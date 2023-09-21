@@ -17,6 +17,25 @@ body {
     padding: 1px 100px;
 }
 
+@media only screen and (max-width: 930px) {
+    .topBar {
+        display: none;
+    }
+
+    .slide button {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .topBar .login {
+        display: block;
+        z-index: 1;
+    }
+
+}
+
 
 .login ul {
     display: flex;

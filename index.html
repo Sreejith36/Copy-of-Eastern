@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/roll.css">
     <link rel="stylesheet" href="styles/foot.css">
     <link rel="stylesheet" href="styles/hideNav.css">
+    <link rel="stylesheet" href="styles/topBarSmall.css">
     <link rel="icon" href="https://eastern.in/wp-content/uploads/2023/04/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -91,6 +92,28 @@
             </div>
         </div>
 
+        <!-- *** TOP BAR FOR SMALL SCREEN BEGIN *** -->
+        <div class="topBarSmall"> <!-- *** topBarSmall.css *** -->
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Back</a>
+                <a href="#" onclick="closeNav()">Home</a>
+                <a href="#" onclick="closeNav()">Company</a>
+                <a href="#" onclick="closeNav()">Products</a>
+                <a href="#" onclick="closeNav()">Cook Book</a>
+                <a href="#" onclick="closeNav()">Events</a>
+                <a href="#" onclick="closeNav()">Videos</a>
+                <a href="#" onclick="closeNav()">Scheme of Amalgamations</a>
+                <a href="#" onclick="closeNav()">Contacts Us</a>
+            </div>
+            <div class="barIn" >
+                <img src="image/logo-white.png" alt="">
+                <button class="openbtn" onclick="openNav()">
+                     ☰ </button>
+            </div>
+
+        </div>
+        <!-- *** TOP BAR FOR SMALL SCREEN ENDS *** -->
+
         <!-- **** TOP BANNER CAROUSEL START  **** -->
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -103,6 +126,7 @@
                     aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
+                <!-- ** Button visibility hidden for small screen size in style.css *** -->
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -132,6 +156,8 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+            <!-- ** Button visibility hidden for small screen size in style.css *** -->
+
         </div>
 
         <!-- **** TOP BANNER CAROUSEL ENDS  **** -->
