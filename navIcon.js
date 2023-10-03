@@ -1,6 +1,9 @@
 
+// Fixed navigation icon 
+
 var rootElement = document.documentElement;
-var scrollToTopBtn = document.getElementById("scrollToTopBtn"); // Replace "scrollToTopBtn" with the actual ID of your button element
+var scrollToTopBtn = document.getElementById("scrollToTopBtn"); 
+
 
 function handleScroll() {
   // Do something on scroll
@@ -15,6 +18,10 @@ function handleScroll() {
 }
 
 document.addEventListener("scroll", handleScroll);
+
+// **** side bar open / close **********
+
+window.document.getElementById("mySidepanel").style.width = "0";
 
 function openNav() {
   document.getElementById("mySidepanel").style.width = "100%";
